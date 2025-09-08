@@ -46,7 +46,7 @@ export async function POST(request: Request) {
         }, {status: 201})
 
     } catch (error) {
-        console.log('Error while update user status to change isAcceptingMessages!')
+        console.log('Error while update user status to change isAcceptingMessages!' , error)
          return Response.json({
             success: false ,
             message: 'Error while update user status to change isAcceptingMessages!'

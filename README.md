@@ -6,7 +6,7 @@ Thanking him for this wonderful project course Without any charges!
 
 
 The project Deadline is:
-        ``` 30-08-2025 ```
+        ``` 15 September 2025 ```
 
 
 Completing By

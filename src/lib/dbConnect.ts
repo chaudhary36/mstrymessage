@@ -14,6 +14,8 @@ export async function dbConnect(): Promise<void>{
     };
 
     try {
+        console.log("MongoDB URI:", process.env.MONGODB_URI);
+
         const dbConnection = await mongoose.connect(process.env.MONGODB_URI || '' , {})
 
         // Console.log to dbConnection

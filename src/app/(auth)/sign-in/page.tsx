@@ -1,13 +1,11 @@
 'use client';
 
-import { useSession } from "next-auth/react"
+import React from 'react'
 
-export default function Component() {
-  const { data: session, status } = useSession()
+const Page = () => {
+  return (
+    <div>Page</div>
+  )
+}
 
-  if (status === "authenticated") {
-    return <p>Signed in as {session.user.email}</p>
-  }else {
-    return <h1>User is not logged in</h1>
-  }
-};
+export default Page;

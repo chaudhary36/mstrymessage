@@ -6,8 +6,9 @@ Thanking him for this wonderful project course Without any charges!
 
 
 The project Deadline is:
-        ``` 15 September 2025 ```
+        ``` 10 September 2025 ```
 
 
-Completing By
+Completed By
        *** - Account's admin ***
+       The Poject has been completed!

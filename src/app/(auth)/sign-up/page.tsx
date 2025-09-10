@@ -56,7 +56,7 @@ const Page = () => {
           );
 
           // TODO: please console.log(response)
-          setUsernameMessage(response.data.message);
+          setUsernameMessage(response.data.message );
         } catch (error) {
           const axiosError = error as AxiosError<ApiResponse>;
           setUsernameMessage(
